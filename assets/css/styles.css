@@ -2,3 +2,13 @@
 /* .header h1 {
     justify-content: center;
 } */
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
