@@ -1,9 +1,21 @@
+function validateForm() {
+    const name = document.getElementById('exampleFormControlInput1').value;
+    const email = document.getElementById('exampleFormControlInput2').value;
+    const password = document.getElementById('blog-content').value;
+
+    if (name === '' || email === '' || password === '') {
+        alert('Please be sure to enter data into all fields before submitting this form.');
+        return false; 
+    }
+}
+
+// Local Storage
 // Get the form element
 const form = document.querySelector('form');
 
 // Function for collecting the form data
 form.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault();
 
     // Collecting the form data
     const username = document.getElementById('exampleFormControlInput1').value;
