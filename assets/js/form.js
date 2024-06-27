@@ -10,7 +10,6 @@ function validateForm() {
 }
 
 // Local Storage
-// Get the form element
 const form = document.querySelector('form');
 
 // Function for collecting the form data
